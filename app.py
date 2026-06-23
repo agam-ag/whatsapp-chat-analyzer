@@ -18,13 +18,7 @@ if uploaded_file is not None:
     user_list.sort()
     user_list.insert(0,"Overall")
 
-    selected_user = st.sidebar.sel~/Desktop/AI/ML Projects main !5 ?1 ❯ git ls-files                                                                                                              08:09:57 PM
-.gitignore
-app.py
-helper.py
-preprocess.py
-requirements.txt
-stop_hinglish.txtectbox("Show Analysis wrt",user_list)
+    selected_user = st.sidebar.selectbox("Show Analysis wrt",user_list)
 
     if st.sidebar.button("Show Analysis"):
         # Stats Area
